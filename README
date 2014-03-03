@@ -1,0 +1,58 @@
+0. About
+
+Bouncing Ball is software for comparing the dynamics of music and movement as described in Sievers, B., Polansky, L., Casey, M., & Wheatley, T. (2013). Music and movement share a dynamic structure that supports universal expressions of emotion. Proceedings of the National Academy of Sciences, 110(1), 70-75.
+
+
+1. Dependencies
+
+Bouncing Ball requires Max/MSP, available for purchase from Cycling '74 (it is not currently fully functional with the Max Runtime because of the need to switch in and out of presentation mode):
+
+http://cycling74.com/products/max/
+
+Bouncing Ball requires the OpenSoundControl external object for Max/MSP, available in CNMAT's collection of Max/MSP/Jitter externals downloadable at the following URL:
+
+http://cnmat.berkeley.edu/downloads
+
+The animated component of Bouncing Ball requires Processing, open source software available for download at the following URL:
+
+http://processing.org/
+
+Bouncing Ball requires additional open source libraries for Processing, listed here with download locations:
+
+OCD: Obsessive Camera Direction:
+	http://gdsstudios.com/processing/libraries/ocd/
+
+oscP5:
+	http://www.sojamo.de/libraries/oscp5/
+
+
+2. Instructions
+
+After installing the required dependencies, open up the Processing sketch "bouncing_ball/bouncing_ball.pde" and run it.
+
+Open up the Max patch "bouncing_ball.maxpat".
+
+Comments within the Max patch describe how to set the participant ID, change the on screen slider labels, randomize the slider labels, randomize the hardware controller functions, and so on.
+
+Placing the patch into presentation mode and pressing the "Start" button will show controls for the experiment described in Sievers, B. et al. (2013). 
+
+
+3. Citation
+
+Users are encouraged to cite Sievers, B., Polansky, L., Casey, M., & Wheatley, T. (2013). Music and movement share a dynamic structure that supports universal expressions of emotion. Proceedings of the National Academy of Sciences, 110(1), 70-75. This paper includes a thorough description of this software in its supplementary information.
+
+
+3. License
+
+Copyright (c) 2014, Beau Sievers
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
